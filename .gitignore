@@ -2,3 +2,6 @@
 __pycache__
 notebooks
 base-20230418_1930.txt
+
+.env
+env
