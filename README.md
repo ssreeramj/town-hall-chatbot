@@ -10,3 +10,5 @@ pinned: false
 ---
 
 # Tiger Analytics Quarter 1 2023 chat bot
+
+Ask your questions about the town hall!
