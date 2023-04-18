@@ -75,4 +75,4 @@ with gr.Blocks() as demo:
         [msg],
     )
 
-demo.launch()
+demo.launch(auth=("tiger", "t!ger"))
