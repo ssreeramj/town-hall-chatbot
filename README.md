@@ -1,1 +1,12 @@
+---
+title: Town Hall Chatbot
+emoji: 👁
+colorFrom: red
+colorTo: indigo
+sdk: gradio
+sdk_version: 3.24.1
+app_file: app.py
+pinned: false
+---
+
 # Tiger Analytics Quarter 1 2023 chat bot
