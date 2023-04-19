@@ -18,7 +18,7 @@ OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 embeddings = OpenAIEmbeddings(openai_api_key=OPENAI_API_KEY)
 
 docsearch = FAISS.load_local("base-20230418_1930-index", embeddings)
-llm = ChatOpenAI(openai_api_key=OPENAI_API_KEY, temperature=0.2, max_tokens=1024)
+llm = ChatOpenAI(openai_api_key=OPENAI_API_KEY, temperature=0.2, max_tokens=2048)
 
 chain = load_qa_chain(llm, chain_type="map_rerank", verbose=False)
 
