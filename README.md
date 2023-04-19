@@ -2,7 +2,7 @@
 title: Town Hall Chatbot
 emoji: 🏢
 colorFrom: black
-colorTo: yello
+colorTo: yellow
 sdk: gradio
 sdk_version: 3.24.1
 app_file: app.py
